@@ -36,8 +36,8 @@
                                         <i class='bx bx-cog'></i>
                                         <span class="link-name">Settings</span>
                                         <li id="logout"><a href="#">
-                                            <i class='bx bx-log-out'></i>
-                                            <span class="link-name"><a href="index.html">Logout</a></span>
+                                            <i class='bx bx-log-out' id="clear"></i>
+                                            <span class="link-name" ><a href="index.html">Logout</a></span>
                 </a></li>
             </ul>
         </div>
@@ -127,13 +127,13 @@
                         </div>
                         <div class="details1">
                             <div class="tn" id="tnt">
-                                token1
+                            
                             </div>
                             <div class="tn"id='tnn'>
-                                null
+                            
                             </div>
                             <div class="tn"id='tnp'>
-                                price
+                                
                             </div>
                             
                         </div>
@@ -164,7 +164,7 @@
                                     </div> -->
                                     
                     
-                                  
+    <!-- <button id="clear">Clear</button>                               -->
 </body>
 <script src="newfile.js"></script>
 <script type="module">
@@ -197,7 +197,7 @@
         var userAnswer = prompt("Do you want to proceed? (yes/no)");
         if (userAnswer !== null) {
             var lowerCaseAnswer = userAnswer.toLowerCase();
-            if (lowerCaseAnswer === 'yes') {{lo}
+            if (lowerCaseAnswer === 'yes'){
                 signOut(auth).then(() => {
 			  // Sign-out successful.
 			  console.log('Sign-out successful.');

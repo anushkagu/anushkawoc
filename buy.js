@@ -1,3 +1,4 @@
+document.querySelector('#btn').addEventListener('click',()=>{
 console.log(document.querySelector("#selectcur").value)
 if(document.querySelector("#selectcur").value=='Bitcoin'){
     
@@ -21,6 +22,7 @@ else if(document.querySelector("#selectcur").value=='Ethereum'){
         console.log(localStorage.getItem('balance2'));
     });
 }
+});
 document.querySelector(".btn2").addEventListener('click',()=>{
 window.location="newfile.html";
 })

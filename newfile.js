@@ -15,9 +15,11 @@
 document.querySelector("#btns").addEventListener('click',()=>{
     window.location='Addcurrency.html'
 })
+if(localStorage.getItem('balance1')){
+    document.querySelector('#tnt').innerHTML=localStorage.getItem('token1');
+    document.querySelector('#tnn').innerHTML=`${localStorage.getItem('balance1')}`; 
+};
 
-document.querySelector('#tnt').innerHTML=localStorage.getItem('token1');
-document.querySelector('#tnn').innerHTML=`${localStorage.getItem('balance1')}`; 
 // console.log(document.querySelector('#tnt2')).value
 if(localStorage.getItem('balance2')){
     document.querySelector('#tnt2').innerHTML=localStorage.getItem('token2');
@@ -43,6 +45,8 @@ if(price2){
 }
 let totalbal=Number(price1)+Number(price2)
 document.querySelector('#tb').innerHTML=totalbal;
-
+document.querySelector("#clear").addEventListener('click',()=>{
+    localStorage.clear();
+});
        
         
