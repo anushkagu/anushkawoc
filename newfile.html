@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cryptocurrency wallet</title>
+    <link rel="stylesheet"href="newfile.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav>
+        <div class="logo-name ">
+            <div class="logo-image">
+                <img src="./logos.jpeg"alt="">
+            </div>
+          <span class="logo_name">cryptocurrency wallet</span>
+        </div>
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li><a href="newfile.html">
+                    <i class='bx bx-home'></i>
+                    <span class="link-name">Dahsboard</span>
+                    <li><a href="#">
+                        <i class='bx bx-archive-in'></i>
+                        <span class="link-name">Import wallet</span>
+                        <li><a href="#">
+                            <i class='bx bxs-file-txt'></i>
+                            <span class="link-name">Transaction History</span>
+                            <li><a href="#">
+                                <i class='bx bxs-user-account' ></i>
+                                <span class="link-name">Account</span>
+                                <li><a href="#">
+                                    <i class='bx bxs-bell-ring'></i>
+                                    <span class="link-name">Notification</span>
+                                    <li><a href="#">
+                                        <i class='bx bx-cog'></i>
+                                        <span class="link-name">Settings</span>
+                                        <li id="logout"><a href="#">
+                                            <i class='bx bx-log-out'></i>
+                                            <span class="link-name"><a href="index.html">Logout</a></span>
+                </a></li>
+            </ul>
+        </div>
+        
+        
+
+    </nav>
+    <section class="dashboard">   
+        <div class="top">
+            <i class='bx bx-list-ul sidebar-toggle'></i>  
+            
+            <div class="search-box">
+                <i class='bx bx-search-alt-2' ></i>
+                <input type="text" placeholder="Search here...">
+             <a href="new1.html"><button class="btn">EXPLORE</button> </a>
+            </div>
+            <h1 class="naam">Anushka </h1><img src="./profiles.jpeg">
+            
+            </div>
+            <div class="dash-content">
+                <div class="overview">
+                    <div class="title"> 
+                        <i class='bx bx-tachometer' ></i>
+                        <span class="text">Dashboard</span>
+                    </div>
+                    <div class="boxes">
+                        <div class="box box1">
+                            <i class='bx bx-dollar-circle' ></i>
+                            <span class="text">BALANCE</span>
+                            <span class="number"><br><i class='bx bx-dollar-circle' id=""></i></span>
+                            <div id="tb"></div>
+                        </div>
+                        <div class="box1 box2" id="box2" >
+                            
+                            <span class="text"><a href ="sell.html">Sell</a></span>
+                            
+                            
+                           
+                        </div>
+                        <div class="box1 box3" id="box3">
+                            
+                            <span class="text"><a href ="buy.html">BUY</a></span>
+                            
+                        </div>
+                        <div class="box1 box3" id="box3">
+                            
+                            <button id="btns" class="currencybtn"> Add Currency</button>
+                            
+                        </div>
+                        
+                        <!-- <div class="box box4">
+                            
+                            <span class="text"><a href ="hel.html">SWAP</a></span>
+                            
+                        </div> -->
+                        <!-- <div class="box box5">
+                            
+                            <span class="text"><a href ="hel.html">RECEIVE</a></span>
+                            
+                        </div>
+                        <div class="box box6">
+                            
+                            <span class="text"><a href ="hel.html">WITHDRAW</a></span>
+                            
+                        </div> -->
+                        <!-- <div class="ac">/////////// -->
+                            <!-- <select name="" id="acurrency">
+                                <option value="token2">Ethereum</option>
+                                <option value="token3">Bitcoin</option>
+                            </select> -->
+                           
+                        <!-- </div> -->
+                    <!-- </div> -->
+                    </div>
+                    <div class="activity">
+                        <div class="title">
+                            <i class='bx bxs-hand-right' ></i>
+                            <span class="text">Cryptocurrency</span>
+                        </div>
+                        <div class="currency">
+                            <ul>
+                                <li>Currency</li>
+                                <li>Amount</li>
+                                <li>Prices</li>
+                            </ul>
+
+                        </div>
+                        <div class="details1">
+                            <div class="tn" id="tnt">
+                                token1
+                            </div>
+                            <div class="tn"id='tnn'>
+                                null
+                            </div>
+                            <div class="tn"id='tnp'>
+                                price
+                            </div>
+                            
+                        </div>
+                        <div class="details2">
+                            <div class="tn"id="tnt2">
+
+                            </div>
+                            <div class="tn" id="tnn2">
+
+                            </div>
+                            <div class="tn" id="tnp2">
+
+                            </div>
+                        </div>
+                        
+                        <!-- <div class="activity-data">
+                            <div class="data names">
+                                <span class="data-title">Name</span>
+                                   
+                                <span class="data-list"><i class='bx bxl-bitcoin' ></i>BITCOIN</span>
+                                <span class="data-list"><i class='bx bxs-pyramid'></i>ETHEREUM</span>
+                                </div>
+                                <div class="data names">
+                                    <span class="data-title">PRICES</span> -->
+                            
+                                    <!-- <span class="data-list"> <i class='bx bx-dollar-circle' ></i>41,894.48</span>
+                                    <span class="data-list"> <i class='bx bx-dollar-circle' ></i>2,229.87</span>
+                                    </div> -->
+                                    
+                    
+                                  
+</body>
+<script src="newfile.js"></script>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js";
+    import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyB4Z71YW8OGtcsh-tiazaqYC7BS05pTxi4",
+      authDomain: "shinerweb-auth.firebaseapp.com",
+      projectId: "shinerweb-auth",
+      storageBucket: "shinerweb-auth.appspot.com",
+      messagingSenderId: "487776642853",
+      appId: "1:487776642853:web:25b4821e77c6de7e90dccc",
+      measurementId: "G-00FGRRF868"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+    const auth = getAuth();
+    console.log(app);
+      //----- Logout code start	  
+	  document.getElementById("logout").addEventListener("click", function() {
+        var userAnswer = prompt("Do you want to proceed? (yes/no)");
+        if (userAnswer !== null) {
+            var lowerCaseAnswer = userAnswer.toLowerCase();
+            if (lowerCaseAnswer === 'yes') {{lo}
+                signOut(auth).then(() => {
+			  // Sign-out successful.
+			  console.log('Sign-out successful.');
+			  alert('Sign-out successful.');
+              window.location="index.html";
+			  document.getElementById('logout').style.display = 'none';
+			}).catch((error) => {
+			  // An error happened.
+			  console.log('An error happened.');
+			});	
+            }else if (lowerCaseAnswer === 'no') {
+                alert("Operation canceled.");
+            }else {alert("Invalid input. Please enter 'yes' or 'no'.");
+            }
+        }else {
+            // User clicked 'Cancel' or closed the dialog
+            alert("Operation canceled.");
+        }
+
+
+		  	  		  
+	  });
+	  //----- End
+
+	</script>
+</html>

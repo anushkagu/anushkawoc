@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.main{
+    background-image: url(background.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:100vh;}
+ header.logo{
+    display: flex;
+        justify-content: center;
+        min-width: 45px;
+    }
+    
+header.logo img{
+    width: 45px;
+    height: 4500000px;
+    object-fit: cover;
+
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    margin-left: 300px;
+    margin-top:  -80px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 180px;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+    margin-left:100px;}
+
+    ul li a{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        font-style: oblique;
+        color:white;
+        
+        text-decoration: none;
+        transition: 0.5 ease-in-out;
+    }
+    ul li a:hover{
+        color: #ff7200;}
+section{
+    width:95%;
+    max-width: 1200px;
+    margin:200px;
+    margin-top: -500px;
+
+}
+    .gridSection{
+        display: grid;
+        align-items: center;
+        gap:20px;
+        margin-bottom: 50em;
+    }
+    #sectionPic{
+        width:100%;
+        max-width: 550px;
+        
+    }
+    .sectionPic img{
+        margin-left:600px;
+        margin-top: -360px;
+        animation: bounch 15s infinite;
+    }
+    .headline{
+        font-size: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: normal;
+        margin-right: 200px;
+        color: aliceblue;
+    }
+    .cryptotext{
+        color: #ff7200;
+    }
+    .sub-headline{
+        font-size: 30px;
+        color: aliceblue;
+    }
+   .btncontainer{
+    margin-top: 2em;
+
+   }
+   .btn{
+    border:1px solid white;
+    border-radius: 50px;
+    background-color: orange;
+    color:white;
+    font-size: 1.1rem;
+    padding:.7em 1.5em;
+    cursor:pointer;
+
+   }
+   .btn1:hover{
+    color: white;
+   }
+   
+   
+   .subject{
+    background-image: url(photo.jpg);
+   }
+.carouselContainer{
+    display: grid;
+    gap:10px;
+    grid-auto-flow: column;
+    margin-top: -800px;
+padding: 30px 10px;}
+
+.eachCarousel{
+ background-color:cornflowerblue;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding:20px;
+ border-radius: 20px;
+ margin: auto;
+ width: 500px;
+ height: 200px;
+ bottom: 30px;}
+
+.carouselDesc{
+ margin-left: 1em;}
+ .carouselTitle{
+    font-size: 30px;
+
+ }
+ .carouselPara{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .carouselPrice{
+    font-size: 20px;
+ }
+ .carouselBtn{
+    background-color: #ff7200;
+    margin-top: 20PX;
+    text-transform: uppercase;
+ }
+ .btn1{background-color: #ff7200;}
+ 
+.abc img{
+    margin-left:888px;
+    
+
+}
+.head{
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    margin-top: -670px;
+    margin-left: 400px;
+}
+.head span{
+    color:red;
+}
+.heading{
+    font-size: 30px;
+    margin-top: 150px;
+    margin-left: 100px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    cursor: pointer;
+
+}
+.heading:hover{ 
+    color:red;
+    
+}
+.abcBtn{
+    margin-left:100px;
+    margin-top: 40px;
+}
+
+ @keyframes bounce{
+    0%{transform:translateY(-30px);}
+    50%{transform:translateY(30px);}
+    100%{transform: translateY(-30px);}
+    
+ }
+.bouncepic img{
+    animation: bounce 60s infinite;
+    transform: translateX(124px);
+}
+.ice img{
+    margin-top: 300px;
+    margin-left: 160px;
+}
+.body{
+    margin-left: 700px;
+    margin-top: -500px;
+    font-size: 60px;
+}
+.body1{
+    margin-left: 700px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+.body1:hover{
+    color: red;
+}
+@keyframes bounce{
+    0%{transform:translateY(-30px);}
+    50%{transform:translateY(30px);}
+    100%{transform: translateY(-30px);}
+    
+ }
+.bouncepics img{
+    animation: bounce 60s infinite;
+
+}
+
+   
+

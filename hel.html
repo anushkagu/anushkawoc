@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Trading App</title>
+</head>
+<body>
+    <h1>Crypto Trading App</h1>
+    <button id="sellButton">Sell</button>
+
+    <script>
+        document.getElementById('sellButton').addEventListener('click', async () => {
+            // Replace with your server endpoint URL
+            const serverEndpoint = 'http://your-server.com/sell';
+
+            try {
+                const response = await fetch(serverEndpoint, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        // Replace with your API key, secret, symbol, and amount
+                        apiKey: 'YOUR_API_KEY',
+                        secretKey: 'YOUR_SECRET_KEY',
+                        symbol: 'YOUR_SYMBOL',
+                        amount: 1.0,
+                    }),
+                });
+
+                const result = await response.json();
+
+                if (response.ok) {
+                    console.log('Sell order placed successfully:', result);
+                } else {
+                    console.error('Failed to place sell order:', result.error);
+                }
+            } catch (error) {
+                console.error('An error occurred:', error);
+            }
+        });
+    </script>
+</body>
+</html>

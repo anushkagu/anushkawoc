@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-image: url(1.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    height:100vh;
+    width:100%;
+    
+    
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 18px;}
+
+ul li a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-style: oblique;
+    color:white;
+    
+    text-decoration: none;
+    transition: 0.5 ease-in-out;
+}
+ul li a:hover{
+    color: #ff7200;
+}
+.search{
+    margin-left:300px;
+    width:300px;
+    float: left;
+
+}
+.srch{
+    width:180px;
+    height:40px;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: transparent;
+    border:3px solid orange;
+    margin-top: 20px;
+    font-size: 20px;
+    font-style: normal;
+    padding:10px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px
+    
+}
+.btn{
+    width:100px;
+    height:41px;
+    background: orange;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border:1px solid black;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-top: 13px;
+    
+}
+.btn:hover{
+    color:white;
+    
+}
+.content{
+    width:12000000000px;
+    height:20000000px;
+    color: aliceblue;
+    margin:50px;
+    position: relative;
+}
+.content h2{
+    color:whitesmoke;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    letter-spacing: 1px;
+    
+}
+.content span{
+    color: #e36810;
+}
+.content .para{
+    font-size: 20px;
+    padding-left:5px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    
+    
+}
+
+ .content .cn{
+        width: 160px;
+        height:40px;
+        background: #ff7200;
+        border: 2px solid black;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-bottom: 600px;
+        padding-left: 20px;
+        cursor: pointer;
+ }
+ .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+    font-weight: bold;
+ }
+ .cn:hover{
+    background:white;
+ }
+
+ 
+ .form{
+    width: 250px;
+    height: 380px;
+    background:black;
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding:29px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #0a0a0a;
+    font-size: 22px;
+    background-color:orange;
+    border-radius: 10px;
+    margin: 4px;
+    padding: 8px;
+}
+.form input{
+    width:250px;
+    height:30px;
+    background: transparent;
+    
+    border-bottom: 5px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    font-family: sans-serif;}
+::placeholder{
+    color: rgb(245, 245, 249);
+}
+.btnn{
+    width:250px;
+    height:39px;
+    background: orange;
+    margin-top: 45px;
+    border:3px solid rgb(244, 242, 242);
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.5s;
+
+
+}
+.btnn:hover{
+    background:#fbf8f8;
+    
+    
+}
+.btnn a{
+    color:blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+.form .link{
+    font-size: 20px;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form.link span{
+    font-size: 20px;
+    color: #e36810;
+}
+.links{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.cn a{
+    text-decoration: none;
+}
+.Signup{
+    top: -300%;
+}
+.active{
+    top: 0%;
+}
+.active1{
+    top: -300%;
+}
